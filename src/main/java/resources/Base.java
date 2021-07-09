@@ -29,13 +29,13 @@ public class Base {
 		
 		if(browserName.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\work\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();			
 		}
 		else if(browserName.equals("firefox"))
 		{
 			//execute in firefox
-			System.setProperty("webdriver.gecko.driver", "C:\\work\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 

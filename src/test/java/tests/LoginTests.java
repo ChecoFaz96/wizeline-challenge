@@ -47,8 +47,7 @@ public class LoginTests extends Base{
 	}
 	
 	@Test(priority=3)
-	public void S3_logoutValidation() throws IOException
-	{
+	public void S3_logoutValidation() throws IOException {
 		lpage = new LoginPage(driver);
 		lpage.loginMethod();
 		lpage.logoutMethod();
@@ -57,8 +56,7 @@ public class LoginTests extends Base{
 	}
 	
 	@AfterMethod
-	public void teardown()
-	{
+	public void teardown() {
 		driver.close();
 		driver=null;
 	}

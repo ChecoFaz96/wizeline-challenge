@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19365" started-at="2021-07-09T00:32:12Z" finished-at="2021-07-09T00:32:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19365" started-at="2021-07-09T00:32:12Z" finished-at="2021-07-09T00:32:31Z">
+      <class name="tests.LoginTests">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.LoginTests@37ceb1df]" name="initialize" is-config="true" duration-ms="2609" started-at="2021-07-09T00:32:12Z" finished-at="2021-07-09T00:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="S1_loginValidation()[pri:1, instance:tests.LoginTests@37ceb1df]" name="S1_loginValidation" duration-ms="312" started-at="2021-07-09T00:32:14Z" finished-at="2021-07-09T00:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- S1_loginValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTests@37ceb1df]" name="teardown" is-config="true" duration-ms="42" started-at="2021-07-09T00:32:16Z" finished-at="2021-07-09T00:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.LoginTests@37ceb1df]" name="initialize" is-config="true" duration-ms="1472" started-at="2021-07-09T00:32:19Z" finished-at="2021-07-09T00:32:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="S2_invalidUserMessage()[pri:2, instance:tests.LoginTests@37ceb1df]" name="S2_invalidUserMessage" duration-ms="182" started-at="2021-07-09T00:32:20Z" finished-at="2021-07-09T00:32:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- S2_invalidUserMessage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTests@37ceb1df]" name="teardown" is-config="true" duration-ms="37" started-at="2021-07-09T00:32:21Z" finished-at="2021-07-09T00:32:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.LoginTests@37ceb1df]" name="initialize" is-config="true" duration-ms="1446" started-at="2021-07-09T00:32:23Z" finished-at="2021-07-09T00:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="S3_logoutValidation()[pri:3, instance:tests.LoginTests@37ceb1df]" name="S3_logoutValidation" duration-ms="963" started-at="2021-07-09T00:32:25Z" finished-at="2021-07-09T00:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- S3_logoutValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTests@37ceb1df]" name="teardown" is-config="true" duration-ms="35" started-at="2021-07-09T00:32:26Z" finished-at="2021-07-09T00:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTests -->
+      <class name="tests.ItemTests">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.ItemTests@7c9d8e2]" name="initialize" is-config="true" duration-ms="1470" started-at="2021-07-09T00:32:16Z" finished-at="2021-07-09T00:32:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="S4_sortProducts()[pri:1, instance:tests.ItemTests@7c9d8e2]" name="S4_sortProducts" duration-ms="555" started-at="2021-07-09T00:32:17Z" finished-at="2021-07-09T00:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- S4_sortProducts -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.ItemTests@7c9d8e2]" name="teardown" is-config="true" duration-ms="38" started-at="2021-07-09T00:32:19Z" finished-at="2021-07-09T00:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.ItemTests@7c9d8e2]" name="initialize" is-config="true" duration-ms="1488" started-at="2021-07-09T00:32:21Z" finished-at="2021-07-09T00:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="S5_validateMultipleItems()[pri:2, instance:tests.ItemTests@7c9d8e2]" name="S5_validateMultipleItems" duration-ms="564" started-at="2021-07-09T00:32:22Z" finished-at="2021-07-09T00:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- S5_validateMultipleItems -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.ItemTests@7c9d8e2]" name="teardown" is-config="true" duration-ms="36" started-at="2021-07-09T00:32:23Z" finished-at="2021-07-09T00:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.ItemTests@7c9d8e2]" name="initialize" is-config="true" duration-ms="1495" started-at="2021-07-09T00:32:26Z" finished-at="2021-07-09T00:32:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="S6_validateProduct()[pri:3, instance:tests.ItemTests@7c9d8e2]" name="S6_validateProduct" duration-ms="479" started-at="2021-07-09T00:32:28Z" finished-at="2021-07-09T00:32:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- S6_validateProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.ItemTests@7c9d8e2]" name="teardown" is-config="true" duration-ms="40" started-at="2021-07-09T00:32:29Z" finished-at="2021-07-09T00:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.ItemTests@7c9d8e2]" name="initialize" is-config="true" duration-ms="1486" started-at="2021-07-09T00:32:29Z" finished-at="2021-07-09T00:32:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="completePurchase()[pri:4, instance:tests.ItemTests@7c9d8e2]" name="completePurchase" duration-ms="643" started-at="2021-07-09T00:32:30Z" finished-at="2021-07-09T00:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completePurchase -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.ItemTests@7c9d8e2]" name="teardown" is-config="true" duration-ms="37" started-at="2021-07-09T00:32:31Z" finished-at="2021-07-09T00:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.ItemTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

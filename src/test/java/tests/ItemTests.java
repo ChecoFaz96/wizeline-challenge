@@ -75,8 +75,7 @@ public class ItemTests extends Base{
 	}
 	
 	@AfterMethod
-	public void teardown()
-	{
+	public void teardown() {
 		driver.close();
 		driver=null;
 	}

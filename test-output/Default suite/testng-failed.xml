@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.LoginTests">
+      <class name="tests.ItemTests">
         <methods>
-          <include name="S3_logoutValidation"/>
+          <include name="S6_validateProduct"/>
+          <include name="S4_sortProducts"/>
+          <include name="teardown"/>
+          <include name="S5_validateMultipleItems"/>
           <include name="initialize"/>
-          <include name="S1_loginValidation"/>
+          <include name="completePurchase"/>
         </methods>
-      </class> <!-- tests.LoginTests -->
+      </class> <!-- tests.ItemTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

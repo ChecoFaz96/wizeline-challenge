@@ -50,8 +50,7 @@ public class HeaderPage {
 		int numProducts = driver.findElements(By.xpath("//div[@class='inventory_item_price']")).size();
 		float[] arrayProducts = new float[numProducts];
 		
-		for(int i=0; i < arrayProducts.length; i++)
-		{
+		for(int i=0; i < arrayProducts.length; i++) {
 			String price = driver.findElement(By.xpath("(//div[@class='inventory_item_price'])"+"["+(i+1)+"]")).getText().replace("$", ""); 
 			float f = Float.parseFloat(price);
 			arrayProducts[i]=f;

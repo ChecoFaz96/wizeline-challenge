@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="resources.ExtentReporterNG"/>
-    <listener class-name="resources.Listeners"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.LoginTests">
+      <class name="tests.ItemTests">
         <methods>
-          <include name="initialize"/>
-          <include name="S1_loginValidation"/>
+          <include name="S6_validateProduct"/>
+          <include name="S4_sortProducts"/>
           <include name="teardown"/>
+          <include name="S5_validateMultipleItems"/>
+          <include name="initialize"/>
+          <include name="completePurchase"/>
         </methods>
-      </class> <!-- tests.LoginTests -->
+      </class> <!-- tests.ItemTests -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

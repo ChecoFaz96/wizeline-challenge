@@ -13,8 +13,7 @@ public class BurgerMenu {
 
 	By logoutOption = By.xpath("//a[@id='logout_sidebar_link']");
 	
-	public WebElement getLogoutOption()
-	{
+	public WebElement getLogoutOption() {
 		return driver.findElement(logoutOption);
 	}
 }
