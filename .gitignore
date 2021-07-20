@@ -2,3 +2,6 @@
 .metadata
 .recommenders
 .settings
+reports
+target
+test-output
