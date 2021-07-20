@@ -65,7 +65,7 @@ public class ItemTests extends Base{
 	}
 	
 	@Test(priority = 4)
-	public void completePurchase() throws IOException {
+	public void S7_completePurchase() throws IOException {
 		lpage = new LoginPage(driver);
 		lpage.loginMethod();
 		cartPage = new CartPage(driver);
