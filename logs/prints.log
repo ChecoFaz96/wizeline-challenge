@@ -1,0 +1,3 @@
+11:02:23.545 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@e11ecfa
+11:02:23.547 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@485e13d7
+11:02:23.547 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@43984213
